@@ -1,0 +1,75 @@
+.side-image{
+    background-image: url('./rock.png.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 25px 25px 0;
+
+}
+.signi{
+    color: #e64c53;
+}
+body{
+    background-image: linear-gradient(to right, #ffffff, #f0f0f6, #e0e1ed, #cfd3e4, #bdc5db);
+}
+.main{
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: -10px 10px 30px -30px black;
+}
+/* .sign{
+    display: flex;
+    justify-content: space-evenly;
+    
+} */
+
+.lineclass{
+    /* width: 40%; */
+    width:70px;
+    height: 3px;
+    background-color: #e64c53;
+    border-radius: 5px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+.isize
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+/* .logiin{
+    font-size: 10px;
+} */
+.btn-primary{
+    background-color:#e64c53 !important;
+    border: none !important;
+}
+
+@media (max-width: 1200px){
+    .line{
+    width: 60%;
+    }
+}
+
+/* @media (max-width: 499px){
+    .btn{
+    width: 60%;
+    }
+} */
+*{
+    font-family: 'Jost', sans-serif;
+}
+/* font-family: 'Manrope', sans-serif; #e64c53*/
